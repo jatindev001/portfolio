@@ -1,10 +1,33 @@
 .imageContainer {
   height: 30vh;
-  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: green; */
 }
 .container {
   height: 100vh;
-  background-color: red;
+  margin-left: 25vw;
+  /* background-color: red; */
+}
+
+img {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 10vh;
+}
+p {
+  text-align: justify;
+  margin: 10px auto;
+  max-width: 60vw;
+  color: dimgray;
+  font-size: 18px;
+  height: 100%;
+  /* line-height: 1vh; */
+  line-height: 1.6;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* font-size: 2vh; */
 }
 /* .aboutContainer {
   height: 30vh;

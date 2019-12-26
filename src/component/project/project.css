@@ -1,0 +1,16 @@
+#headin {
+  margin: 50px auto;
+  text-align: center;
+  font-size: 5vh;
+  height: 3%;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#content {
+  margin: auto;
+}
+/* .container {
+  margin-left: 25vw;
+  width: 75vw;
+  height: 100vh;
+} */
