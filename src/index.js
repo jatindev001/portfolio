@@ -1,13 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import { SideComponent } from "./sharedComponent/sideComponent";
+import { About } from "./component/about/about";
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <div className="contentContainer">
+        <div className="sideComponent">
+          <SideComponent />
+        </div>
+        <div className="about">
+          <About />
+        </div>
+      </div>
     </div>
   );
 }

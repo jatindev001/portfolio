@@ -2,3 +2,19 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.sideComponent {
+  width: 25vw;
+  background-color: black;
+  /* display: inline; */
+}
+.about {
+  width: 100%;
+  background-color: green;
+  /* display: inline; */
+}
+.contentContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}

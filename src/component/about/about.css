@@ -1,0 +1,11 @@
+.imageContainer {
+  height: 30vh;
+  background-color: green;
+}
+.container {
+  height: 100vh;
+  background-color: red;
+}
+/* .aboutContainer {
+  height: 30vh;
+} */
