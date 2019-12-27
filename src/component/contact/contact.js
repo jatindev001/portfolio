@@ -5,7 +5,6 @@ export const Contact = () => {
     <div className="container">
       <p id="heading">Get in touch</p>
       <form class="contact1-form validate-form">
-        <span class="contact1-form-title">Get in touch</span>
         <div
           class="wrap-input1 validate-input"
           data-validate="Name is required"
@@ -36,14 +35,14 @@ export const Contact = () => {
           class="wrap-input1 validate-input"
           data-validate="Message is required"
         >
-          <textarea class="input1" name="message" placeholder="Message" />
+          <textarea class="input2" name="message" placeholder="Message" />
           <span class="shadow-input1" />
         </div>
         <div class="container-contact1-form-btn">
           <button class="contact1-form-btn">
             <span>
               Send Email
-              <i class="fa fa-long-arrow-right" aria-hidden="true" />
+              {/* <i class="fa fa-long-arrow-right" aria-hidden="true" /> */}
             </span>
           </button>
         </div>
